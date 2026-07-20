@@ -3,7 +3,7 @@ int reverse(int x) {
 
     while (x != 0) {
         int digit = x % 10;
-        x /= 10;gi
+        x /= 10;
 
         if (rev > 214748364 || (rev == 214748364 && digit > 7))
             return 0;
