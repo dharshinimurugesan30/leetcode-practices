@@ -56,3 +56,17 @@ STEP 5: Store the last digit of the sum in a new node.
 STEP 6: Update the carry with the remaining value.
 STEP 7: Move to the next nodes in both linked lists.
 STEP 8: Return the linked list starting from dummy.next.
+
+DAY 4:
+
+PROBLEM STATEMENT:Given a string s, find the length of the longest substring without duplicate characters.
+
+ ALGORITHM:
+
+STEP 1: Start with an empty dictionary.
+STEP 2: Go through each character in the string.
+STEP 3: If the character is repeated, move the starting position after its previous occurrence.
+STEP 4: Update the character's latest position.
+STEP 5: Find the length of the current substring.
+STEP 6: Keep of the maximum length.
+STEP 7: Return the maximum length.
